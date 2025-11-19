@@ -21,7 +21,7 @@ export default function Home() {
                 Muhammad <span className="text-blue-400">Wafdan</span> Taqiyya
               </h2>
               <p className="text-xl text-gray-300 mb-8">
-                Full Stack Developer| Robotic Enthusiast | CTF Player 
+                Full Stack Developer | Robotic Enthusiast | CTF Player 
               </p>
               <p className="text-gray-400 mb-8">
                 I am an Information Engineering student at Universitas Gadjah Mada. Interested in cybersecurity, website development, and microcontroller.
