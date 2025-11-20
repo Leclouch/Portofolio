@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import ButtonRainbow from '@/components/ButtonRainbow'
 import Link from 'next/link'
 
 export default function Home() {
@@ -27,8 +28,9 @@ export default function Home() {
                 I am an Information Engineering student at Universitas Gadjah Mada. Interested in cybersecurity, website development, and microcontroller.
               </p>
               <div className="flex gap-4">
-                <Link href="/contact" className="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg transition">
-                  Get in Touch
+                
+                <Link href="/contacts">
+                  <ButtonRainbow text="Get in Touch"/>
                 </Link>
                 <Link href="/projects" className="border border-gray-600 hover:border-blue-400 px-6 py-3 rounded-lg transition">
                   View Projects
@@ -42,21 +44,18 @@ export default function Home() {
       {/* Skills Section */}
       <section className="py-20 px-6 bg-gray-800/50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12 text-center">What I Do</h2>
+          <h2 className="text-4xl font-bold mb-12 text-center">What I am insterested in:</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-900 p-6 rounded-lg">
-              <div className="text-4xl mb-4">💻</div>
-              <h3 className="text-xl font-bold mb-2">Development</h3>
+              <h3 className="text-2xl font-bold mb-3">Website Development</h3>
               <p className="text-gray-400">Building modern web applications with React, Next.js, and Node.js.</p>
             </div>
             <div className="bg-gray-900 p-6 rounded-lg">
-              <div className="text-4xl mb-4">🔐</div>
-              <h3 className="text-xl font-bold mb-2">Security Research</h3>
+              <h3 className="text-2xl font-bold mb-2">CTF Competition</h3>
               <p className="text-gray-400">Finding vulnerabilities and solving CTF challenges in various categories.</p>
             </div>
             <div className="bg-gray-900 p-6 rounded-lg">
-              <div className="text-4xl mb-4">📝</div>
-              <h3 className="text-xl font-bold mb-2">Technical Writing</h3>
+              <h3 className="text-2xl font-bold mb-2">Robotics/IoT</h3>
               <p className="text-gray-400">Documenting CTF solutions and sharing security knowledge.</p>
             </div>
           </div>

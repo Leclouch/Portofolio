@@ -11,9 +11,6 @@ interface ProjectCardProps {
 export default function ProjectCard({ title, description, tags, liveUrl, githubUrl }: ProjectCardProps) {
   return (
     <div className="bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition">
-      <div className="h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-6xl">
-        🎯
-      </div>
       <div className="p-6">
         <h3 className="text-2xl font-bold mb-2">{title}</h3>
         <p className="text-gray-400 mb-4">{description}</p>

@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 
 export default function Contact() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
+    <main className=" absolute inset-0 h-full w-full bg-grey bg-[linear-gradient(to_right,#80808024_1px,transparent_1px),linear-gradient(to_bottom,#80808024_1px,transparent_1px)] bg-size-[64px_64px] text-white">
       <Navbar />
       
       <section className="pt-32 pb-20 px-6">
