@@ -22,11 +22,11 @@ export default function ProjectCard({ title, description, tags, liveUrl, githubU
           ))}
         </div>
         <div className="flex gap-4">
-          {liveUrl && (
+          {/* {liveUrl && (
             <a href={liveUrl} className="text-blue-400 hover:text-blue-300">
               Live Demo →
             </a>
-          )}
+          )} */}
           {githubUrl && (
             <a href={githubUrl} className="text-gray-400 hover:text-gray-300">
               GitHub →

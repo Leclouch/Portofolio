@@ -5,53 +5,21 @@ import WriteupCard from '@/components/WriteupCard'
 export default function Writeups() {
   const writeups = [
     {
-      title: "SQL Injection in Login Form",
-      ctfName: "PicoCTF 2024",
-      category: "Web",
-      difficulty: "Easy",
-      date: "Nov 2024",
-      slug: "sql-injection-login"
-    },
-    {
-      title: "Buffer Overflow Exploitation",
-      ctfName: "HackTheBox",
-      category: "Binary",
-      difficulty: "Medium",
-      date: "Oct 2024",
-      slug: "buffer-overflow-exploit"
-    },
-    {
-      title: "RSA Weak Key Attack",
-      ctfName: "CTFtime Challenge",
-      category: "Crypto",
+      title: "SCHEMATICS CTF",
+      ctfName: "by ITS",
+      category: "CTF",
       difficulty: "Hard",
-      date: "Oct 2024",
-      slug: "rsa-weak-key"
+      date: "Oct 2025",
+      slug: "https://docs.google.com/document/d/e/2PACX-1vR_PEOsJYByUABT_BBQQge7m3MxpEwJfFekjgTu1sCMpq374Z0ruUPSFyYkI5pW1tfffA1cuPSId-je/pub"
     },
     {
-      title: "Command Injection via API",
-      ctfName: "TryHackMe",
-      category: "Web",
+      title: "GEMATIK CTF",
+      ctfName: "by UTI",
+      category: "CTF",
       difficulty: "Medium",
-      date: "Sep 2024",
-      slug: "command-injection-api"
+      date: "Nov 2025",
+      slug: "https://docs.google.com/document/d/e/2PACX-1vR_PEOsJYByUABT_BBQQge7m3MxpEwJfFekjgTu1sCMpq374Z0ruUPSFyYkI5pW1tfffA1cuPSId-je/pub"
     },
-    {
-      title: "Reverse Engineering Android App",
-      ctfName: "Google CTF 2024",
-      category: "Reverse",
-      difficulty: "Hard",
-      date: "Sep 2024",
-      slug: "android-reversing"
-    },
-    {
-      title: "XSS to Account Takeover",
-      ctfName: "BugBounty POC",
-      category: "Web",
-      difficulty: "Medium",
-      date: "Aug 2024",
-      slug: "xss-account-takeover"
-    }
   ]
 
   return (

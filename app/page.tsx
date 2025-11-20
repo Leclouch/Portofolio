@@ -44,9 +44,9 @@ export default function Home() {
       {/* Skills Section */}
       <section className="py-20 px-6 bg-gray-800/50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12 text-center">What I am insterested in:</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gray-900 p-6 rounded-lg">
+          <h2 className="text-4xl font-bold mb-10 text-center">⚠️Website still under construction⚠️</h2>
+          {/* <div className="grid md:grid-cols-3 gap-8">
+            {/* <div className="bg-gray-900 p-6 rounded-lg">
               <h3 className="text-2xl font-bold mb-3">Website Development</h3>
               <p className="text-gray-400">Building modern web applications with React, Next.js, and Node.js.</p>
             </div>
@@ -57,8 +57,8 @@ export default function Home() {
             <div className="bg-gray-900 p-6 rounded-lg">
               <h3 className="text-2xl font-bold mb-2">Robotics/IoT</h3>
               <p className="text-gray-400">Documenting CTF solutions and sharing security knowledge.</p>
-            </div>
-          </div>
+            </div> 
+          </div> */}
         </div>
       </section>
 

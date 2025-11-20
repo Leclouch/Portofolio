@@ -17,7 +17,7 @@ export default function WriteupCard({ title, ctfName, category, difficulty, date
   }
 
   return (
-    <Link href={`/writeups/${slug}`}>
+    <Link href={`${slug}`}>
       <div className="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 hover:transform hover:scale-105 transition cursor-pointer">
         <div className="flex justify-between items-start mb-3">
           <h3 className="text-xl font-bold text-blue-400">{title}</h3>

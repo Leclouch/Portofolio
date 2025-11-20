@@ -6,32 +6,20 @@ import ProjectCard from '@/components/ProjectCard'
 export default function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce application with payment integration and admin dashboard.",
-      tags: ["Next.js", "TypeScript", "PostgreSQL", "Stripe"],
+      title: "Flower Categorization",
+      description: "A python code for categorizing images of flowers into 3 RGB folders.",
+      tags: ["Python"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/Leclouch/ColorCategorization-flowers"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task manager with real-time updates and team features.",
-      tags: ["React", "Node.js", "Socket.io", "MongoDB"],
+      title: "Robot Obstacle Avoidance",
+      description: "A robot that automatically avoid obstacles",
+      tags: ["C/C++", "ESP32"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/Leclouch/RobotAvoidancePS4"
     },
-    {
-      title: "Security Scanner",
-      description: "Automated security scanning tool for web applications with vulnerability detection.",
-      tags: ["Python", "Flask", "SQLite"],
-      githubUrl: "#"
-    },
-    {
-      title: "Portfolio CMS",
-      description: "Custom content management system built for portfolio websites.",
-      tags: ["Next.js", "Sanity.io", "Tailwind"],
-      liveUrl: "#",
-      githubUrl: "#"
-    }
+
   ]
 
   return (
