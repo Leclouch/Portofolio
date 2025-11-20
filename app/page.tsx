@@ -1,10 +1,11 @@
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import { RainbowButton } from "@/components/RainbowButton"
 import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className=" absolute inset-0 h-full w-full bg-grey bg-[linear-gradient(to_right,#80808024_1px,transparent_1px),linear-gradient(to_bottom,#80808024_1px,transparent_1px)] bg-size-[64px_64px]  text-white">
+    <main className=" absolute inset-0 h-full w-full bg-grey bg-[linear-gradient(to_right,#80808048_1px,transparent_1px),linear-gradient(to_bottom,#80808048_1px,transparent_1px)] bg-size-[64px_64px]  text-white">
       <Navbar />
 
       {/* Hero Section */}
@@ -27,9 +28,7 @@ export default function Home() {
                 I am an Information Engineering student at Universitas Gadjah Mada. Interested in cybersecurity, website development, and microcontroller.
               </p>
               <div className="flex gap-4">
-                <Link href="/contact" className="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg transition">
-                  Get in Touch
-                </Link>
+                <RainbowButton>Get Unlimited Access</RainbowButton>;
                 <Link href="/projects" className="border border-gray-600 hover:border-blue-400 px-6 py-3 rounded-lg transition">
                   View Projects
                 </Link>
