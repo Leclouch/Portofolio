@@ -12,11 +12,11 @@ export default function Home() {
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="flex-1 flex justify-center">
+            {/* <div className="flex-1 flex justify-center">
               <div className="w-64 h-64 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-6xl">
                 👨‍💻
               </div>
-            </div>
+            </div> */}
             <div className="flex-1">
               <h2 className="text-5xl md:text-6xl font-bold mb-4">
                 Muhammad <span className="text-blue-400">Wafdan</span> Taqiyya
@@ -25,7 +25,7 @@ export default function Home() {
                 Full Stack Developer | Robotic Enthusiast | CTF Player 
               </p>
               <p className="text-gray-400 mb-8">
-                I am an Information Engineering student at Universitas Gadjah Mada. Interested in cybersecurity, website development, and microcontroller.
+                I am an Information Engineering student at Universitas Gadjah Mada. Interested in cybersecurity, website development, and microcontroller. Currently learning Next.js and Internet of Things.
               </p>
               <div className="flex gap-4">
                 
@@ -44,7 +44,7 @@ export default function Home() {
       {/* Skills Section */}
       <section className="py-20 px-6 bg-gray-800/50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-10 text-center">⚠️Website still under construction⚠️</h2>
+          <h2 className="text-4xl font-bold  text-center">⚠️Website still under construction⚠️</h2>
           {/* <div className="grid md:grid-cols-3 gap-8">
             {/* <div className="bg-gray-900 p-6 rounded-lg">
               <h3 className="text-2xl font-bold mb-3">Website Development</h3>
